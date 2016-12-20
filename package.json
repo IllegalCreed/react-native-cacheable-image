@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jayesbe/react-native-cacheable-image.git"
+    "url": "git+https://github.com/IllegalCreed/react-native-cacheable-image.git"
   },
   "keywords": [
     "react-native"
@@ -16,9 +16,9 @@
   "author": "Jayesbe <jayesbe@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jayesbe/react-native-cacheable-image/issues"
+    "url": "https://github.com/IllegalCreed/react-native-cacheable-image/issues"
   },
-  "homepage": "https://github.com/jayesbe/react-native-cacheable-image#readme",
+  "homepage": "https://github.com/IllegalCreed/react-native-cacheable-image#readme",
   "dependencies": {
     "crypto-js": "^3.1.6",
     "react-native-fs": "^2.0.1-rc.2",

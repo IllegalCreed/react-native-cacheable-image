@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, ActivityIndicator, NetInfo } from 'react-native';
-import RNFS, { DocumentDirectoryPath } from 'react-native-fs';
+import RNFS, { TemporaryDirectoryPath } from 'react-native-fs';
 import ResponsiveImage from 'react-native-responsive-image';
 
 const SHA1 = require("crypto-js/sha1");
@@ -57,7 +57,7 @@ export default
     }
 
     async checkImageCache(imageUri, cachePath, cacheKey) {
-        const dirPath = DocumentDirectoryPath + '/' + cachePath;
+        const dirPath = TemporaryDirectoryPath + '/' + cachePath;
         const filePath = dirPath + '/' + cacheKey;
 
         RNFS
